@@ -1,0 +1,240 @@
+.logo{
+	height: 40px;
+	width: 40px;
+	margin: 5px 0px 5px 10px;
+	float:left;
+	border-radius: 20px;
+	//-webkit-box-shadow:rgba(5,5,5,.8) 4px 4px 4px;
+}
+
+.navbar-nav li:hover{
+	background:#DDDDDD;
+}
+
+.sidebar{
+	display:none;
+}
+
+.title{
+	margin-left:3%;
+	font-size:1.3em;
+}
+
+
+@media(min-width:768px){
+	.sidebar{
+		display:block;
+	}
+}
+
+@media(min-width:480px){
+	.title{
+		margin-left:20%;
+	}
+}
+
+.center-align{
+	text-align:center;
+	font-size:1.2em;
+}
+
+.modal-location{
+	top:20%;
+}
+
+.margin-top-5{
+	margin-top:5px;
+}
+
+.margin-top-10{
+	margin-top:10px;
+}
+
+.margin-top-50{
+	margin-top:50px;
+}
+
+.margin-right-10{
+	margin-right:10px;
+}
+
+
+#actionList{
+	padding:0px;
+	border:0px;
+}
+
+#actionList li a{
+	margin-top:1px;
+	padding:7px;
+	border-bottom:1px solid #EEEEEE;
+}
+
+#actionList li:hover a{
+	background-color:#3276b1;
+	color:#fff;
+}
+
+.modalMsg{
+	margin:0px;
+	padding:0px;
+}
+.datepicker{
+	z-index:2000 !important;
+}
+.share_sup{
+	margin-left:2px;
+}
+
+.share_sup a{
+	color:#0C2F57;
+}
+.smallButtonGreen{
+	float:left;
+	width:20px;
+	height:20px;
+	border-radius:5px;
+	font-size:10px;
+	padding:4px;
+	border:1px solid black;
+	background:#115511;
+	margin:5px 0 0 3px;
+	color:white;
+}
+
+.smallButtonRed{
+	float:left;
+	width:20px;
+	height:20px;
+	border-radius:5px;
+	font-size:10px;
+	padding:4px;
+	border:1px solid black;
+	background:#AA0000;
+	margin:5px 0 0 3px;
+	color:white;
+}
+
+.smallButtonGreen:hover, .smallButtonRed:hover{
+	cursor:pointer;
+}
+
+.sharePopUp{
+			border: 1px solid #999;
+			position:absolute;
+			width : 135px;
+			z-index: 10px;
+			border-radius:10px;
+			padding:5px;
+			background:white;
+}
+
+.sharePopUpTitle{
+	text-align:center;
+	font-weight:800;
+	border-bottom:1px solid #aaa;
+}
+.sharePopUpInput{
+	float:left;
+	width:75px;
+	margin-top:2px;
+}
+
+.bold{
+	font-weight:bold;
+}
+.deleteIcon{
+	cursor:pointer;
+}
+.detailsBox{
+	border:1px dotted #CCC;
+	border-radius:5px;
+	padding:0px;
+	margin-top:10px;
+}
+.detailsBoxHeader{
+	padding:5px;
+	text-align:center;
+	background:#f5f5f5;
+	border-bottom:1px dotted #CCC;
+	color:#333;	
+	font-size:1.2em;
+}
+.detailsBoxData{
+	padding:8px;
+}
+
+#itemTable tfoot{
+	color:#000000;
+	border-top:2px solid #ccc;
+}
+
+#addBuddyLink{
+	cursor:pointer;
+}
+.align_right{
+	text-align:right;
+}
+
+.align_center{
+	text-align:center;
+}
+
+.buddyLabel{
+	font-weight:normal;
+}
+
+#loginContainer, #signupContainer, #expense-table, #itemTable, #balancesBox{
+	display:none;
+}
+
+#loginbox, #signupbox{
+	margin-top:10px;
+	border:1px solid #DDD;
+	border-radius:10px;
+	padding:5px 20px 10px 20px;
+}
+
+.login_body{
+	background:url(".././images/sky1.jpg") repeat;
+	background-size:100% 100%;
+	position:relative
+}
+
+.login_title{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.1em;
+	padding:10px 0 10px 0;
+	color:#DDD;
+}
+
+.border_bottom_white{
+	border-bottom:1px solid #EEE;
+}
+
+.border_top_white{
+	border-top:1px solid #EEE;
+}
+
+.text_white{
+	color:#ddd;
+}
+
+#createAcctPageLink, #loginPageLink{
+	cursor:pointer;
+}
+
+#createAcctPageLink:hover, #loginPageLink:hover{
+	color:#ddd;
+}
+
+#noRecord{
+	padding: 10px;
+	font-size: 1.1em;
+	display:none;
+}
+
+.itemHeader{
+	background:#f5f5f5;
+}

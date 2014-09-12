@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+
+var centerSet = false;
+
+if(navigator.geolocation){
+	navigator.geolocation.watchPosition(showposition);
+}
+
+
+function showposition(position){
+
+	//$("#displayLocation").append("Latitude : " + position.coords.latitude +	" , Longitude : " + position.coords.longitude + "<br\>");
+	var lat = position.coords.latitude;
+	var lon = position.coords.longitude;
+	//var latlon = new google.maps.LatLng();
+	console.log(lat + "***" + lon);
+	//alert("hiii");
+	if(!centerSet){
+		 var myOptions={
+			  center:new google.maps.LatLng(lat,lon),
+			  zoom:14,
+			  mapTypeId:google.maps.MapTypeId.SATELLITE,
+			  mapTypeControl:false,
+			  navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
+		  };
+	 
+	 		var map = new google.maps.Map(document.getElementById("displayLocation") , myOptions);
+	 		centerSet=true;
+	}
+	
+	 new google.maps.Marker({
+		 position:new google.maps.LatLng(lat, lon),
+		 map:map,
+		 title:"You were here!"
+		 });
+	 new google.maps.Marker({
+		 position:new google.maps.LatLng(37.544625 , -121.981338),
+		 map:map,
+		 title:"You were here!"
+		 });
+	 console.log("point added");
+}	
+</script>
+</head>
+<body>
+	<div id="displayLocation" style="height:500px;width:700px"></div>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</body>
+</html>

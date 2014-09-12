@@ -1,0 +1,16 @@
+[
+
+	{"Item":"Walmart", "Date":"02 Feb, 2013, Wed", "Price":"40", "PaidBy":"Bravinth", "PaidFor": [
+																									{ "name":"Bravinth", "Share":"10"},
+																									{ "name":"Karthi", "Share":"10"},																										
+																									{ "name":"Prasanna", "Share":"10"},
+																									{ "name":"Vignesh", "Share":"10"}
+																								]},
+	{"Item":"Target", "Date":"03 Feb, 2013, Wed", "Price":"20", "PaidBy":"Vignesh", "PaidFor": [
+																									{ "name":"Bravinth", "Share":"5"},
+																									{ "name":"Karthi", "Share":"10"},																										
+																									{ "name":"Prasanna", "Share":"5"},
+																									{ "name":"Vignesh", "Share":"0"}																										
+																								]}
+																								
+]

@@ -1,0 +1,68 @@
+#createSheetLink, .sheetLink{
+	margin:4px 0px 0px 0px;
+	font-size:20px;
+	font-family:tahoma;
+	border-radius:10px;
+	list-style:none;
+	background:#8986A3;
+	background:-webkit-linear-gradient(top, white, #8986A3);
+	background:-moz-linear-gradient(top, white, #8986A3);
+	
+}
+
+.sheetDiv{
+	padding:8px 10px 8px 10px;
+	text-align:center;
+	/* padding:8px 10px 8px 10px;
+	margin:4px 0px 0px 0px;
+	font-size:20px;
+	font-family:tahoma;
+	border-radius:10px;
+	list-style:none;
+	background:#8986A3;
+	background:-webkit-linear-gradient(top, white, #8986A3);
+	background:-moz-linear-gradient(top, white, #8986A3);
+	text-align:center; */
+}
+
+#createSheetLink:hover, .sheetLink:hover{
+	cursor:pointer;
+	#background:-webkit-linear-gradient(top, white, #5591F2);
+	#background:-webkit-linear-gradient(top, #5591F2, #8986A3);
+	background:#CBDBF5;
+	background:-webkit-linear-gradient(top, #CBDBF5, #8986A3);
+	background:-moz-linear-gradient(top, #CBDBF5, #8986A3);
+}
+
+.sheetContainer{
+		margin:50px 300px 30px 100px;
+}
+
+.noListStyle{
+	list-style:none;
+}
+
+#createSheetDiv{
+	padding:20px 5px 20px 5px;
+}
+
+.text{
+width:95%;
+height:25px;
+}
+
+.success{
+	padding:50px 30px 30px 30px;
+	color:green;
+	background:blue;
+}
+
+.modalMsg{
+	
+}
+
+.right{
+	float:right;
+	padding-right:20px;
+	font-size:12px;
+}
